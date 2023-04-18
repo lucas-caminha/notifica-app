@@ -2,6 +2,7 @@ import React from "react";
 import Box from '@mui/material/Box';
 import { DataGrid } from '@mui/x-data-grid';
 
+
 const columns = [
     { field: 'id', headerName: 'ID', width: 90 },
     {
@@ -40,16 +41,18 @@ const columns = [
 
   ];
 
+  
+
 export default function NotificacaoTable() {
     return (
-        <Box sx={{ height: 420, width: '100%' }}>
-        <DataGrid
+        <Box className="centralizado" sx={{display: 'flex', height: 630, width: '75%', margin: 'auto'}}>
+        <DataGrid 
             rows={rows}
             columns={columns}
             initialState={{
             pagination: {
                 paginationModel: {
-                pageSize: 6,
+                pageSize: 10,
                 },
             },
             }}
