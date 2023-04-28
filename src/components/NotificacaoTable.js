@@ -12,8 +12,8 @@ const columns = [
       editable: true,
     },
     {
-      field: 'dataCriacao',
-      headerName: 'Data de Criação',
+      field: 'dataInicio',
+      headerName: 'Data de início',
       width: 150,
       editable: true,
     },
@@ -27,17 +27,17 @@ const columns = [
   ];
   
   const rows = [
-    { id: 1, resumo: 'Incidente problemático', dataCriacao: '17/04/2023', status: 'Em Andamento' },
-    { id: 2, resumo: 'Incidente problemático', dataCriacao: '17/04/2023', status: 'Cancelado' },
-    { id: 3, resumo: 'Incidente problemático', dataCriacao: '17/04/2023', status: 'Em Andamento' },
-    { id: 4, resumo: 'Incidente problemático', dataCriacao: '17/04/2023', status: 'Resolvido' },
-    { id: 5, resumo: 'Incidente problemático', dataCriacao: '17/04/2023', status: 'Resolvido' },
-    { id: 6, resumo: 'Incidente problemático', dataCriacao: '17/04/2023', status: 'Resolvido' },
-    { id: 7, resumo: 'Incidente problemático', dataCriacao: '17/04/2023', status: 'Resolvido' },
-    { id: 8, resumo: 'Incidente problemático', dataCriacao: '17/04/2023', status: 'Em Andamento' },
-    { id: 9, resumo: 'Incidente problemático', dataCriacao: '17/04/2023', status: 'Resolvido' },
-    { id: 10, resumo: 'Incidente problemático', dataCriacao: '17/04/2023', status: 'Resolvido' },
-    { id: 11, resumo: 'Incidente problemático', dataCriacao: '17/04/2023', status: 'Em Andamento' },
+    { id: 1, resumo: 'Incidente problemático', dataInicio: '17/04/2023', status: 'Em Andamento' },
+    { id: 2, resumo: 'Incidente problemático', dataInicio: '17/04/2023', status: 'Cancelado' },
+    { id: 3, resumo: 'Incidente problemático', dataInicio: '17/04/2023', status: 'Em Andamento' },
+    { id: 4, resumo: 'Incidente problemático', dataInicio: '17/04/2023', status: 'Resolvido' },
+    { id: 5, resumo: 'Incidente problemático', dataInicio: '17/04/2023', status: 'Resolvido' },
+    { id: 6, resumo: 'Incidente problemático', dataInicio: '17/04/2023', status: 'Resolvido' },
+    { id: 7, resumo: 'Incidente problemático', dataInicio: '17/04/2023', status: 'Resolvido' },
+    { id: 8, resumo: 'Incidente problemático', dataInicio: '17/04/2023', status: 'Em Andamento' },
+    { id: 9, resumo: 'Incidente problemático', dataInicio: '17/04/2023', status: 'Resolvido' },
+    { id: 10, resumo: 'Incidente problemático', dataInicio: '17/04/2023', status: 'Resolvido' },
+    { id: 11, resumo: 'Incidente problemático', dataInicio: '17/04/2023', status: 'Em Andamento' },
 
   ];
 
